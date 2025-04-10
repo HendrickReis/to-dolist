@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style2.css">
+    <title>Criar Tarefa</title>
+</head>
+<body>
+    <div id="corpo" class="body-area">
+        <header id="header" class="header__area">
+            <div id="header__title">
+                <h1>Area de Criação</h1>
+            </div>
+        </header>
+        <main id="main" class="main__area">
+
+           
+            <div id="main-create__tarefa">
+                <div id="main__title">
+                    <h1>Criar Tarefa</h1>
+                </div>
+                <p>Nome da Tarefa: <br> <input type="text" id="tarefa__input" class="inputs" placeholder="Digite aqui..."></p>
+                <p>Descrição (opcional): <br> <input type="text" id="description__input" class="inputs" placeholder="Digite aqui..."></p>
+                <p>Grau de importância: </p>
+                <p>
+                   <label for="opt1">baixo</label> <input type="radio" name="option" id="opt1" value="baixo" checked>
+                   <br>
+                  <label for="opt2">Médio</label> <input type="radio" name="option" id="opt2" value="medio">
+                   <br>
+                   <label for="opt3">Alto</label> <input type="radio" name="option" id="opt3" value="alto">
+                   <br>
+                   <label for="opt4">Urgente</label> <input type="radio" name="option" id="opt4" value="urgente">
+                </p>
+            </div>
+            <div id="main-footer__area">
+                <button id="criar">Criar</button>
+            </div>
+
+        </main>
+        <footer id="footer" class="footer__area">
+            <a href="./tarefas.html">Voltar</a>
+        </footer>
+    </div>
+
+
+    <script src="../javascript/background2.js"></script>
+    <script src="../javascript/submit.js"></script>
+</body>
+</html>
