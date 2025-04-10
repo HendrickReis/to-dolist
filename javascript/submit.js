@@ -38,6 +38,6 @@ button.onclick = (event) => {
 
         localStorage.setItem(`item${id}`, `${JSON.stringify(Task)}`)
     
-        window.location.href = "./tarefas.html"
+        window.location.href = "./index.html"
     }
 }
